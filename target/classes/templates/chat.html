@@ -6,9 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+	
+	<style>
+	    .formcss{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		}
+	</style>
+	
 </head>
 <body>
-<body>
+<body >
+<h1>Web Chat Application</h1>
    <form th:object="${chatForm}" th:action="@{/chat}" action="#" method="POST">
    <label for="messageText">Message Text:</label>
    <input th:field="*{messageText}" id="messageText" type="text">
@@ -23,6 +32,11 @@
         </option>
     </select>
    <input type="submit">
+</form>
+
+<form class = "formcss" th:action="@{/logout}" action="#" method="POST">
+    <label for="Logout">Logout</label>
+    <input id = "LogOut:" type="submit"></input>
 </form>
 
 <div th:each="msg:${chatHistory}">
