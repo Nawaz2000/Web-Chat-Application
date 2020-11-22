@@ -8,8 +8,8 @@ I have made this project is open source for everyone and your suggestions and fo
 of it.... So host it and have fun
 
 # New features added (v2.0)
-Registration/login
-Logout
+Registration/login,
+Logout,
 Database connectivity
 
 # Installation
