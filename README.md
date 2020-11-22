@@ -7,6 +7,11 @@ to type in their username and start texting. It is still in the early developmen
 I have made this project is open source for everyone and your suggestions and forks can help build a better versions 
 of it.... So host it and have fun
 
+# New features added (v2.0)
+Registration/login
+Logout
+Database connectivity
+
 # Installation
 This is a web application and therefore needs to be hosted (either locally or in a site)
 ...
